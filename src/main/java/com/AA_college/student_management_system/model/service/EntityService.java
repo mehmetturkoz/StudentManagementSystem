@@ -6,7 +6,6 @@ public interface EntityService<S, I> {
 
     List<S> getAll();
 
-    //id ye göre bul
     S findByID(I id);
 
     S save(S entity);
